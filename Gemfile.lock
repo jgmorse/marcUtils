@@ -5,8 +5,8 @@ GEM
       scrub_rb (>= 1.0.1, < 2)
       unf
     mini_portile2 (2.8.8)
-    nokogiri (1.16.5)
-      mini_portile2 (~> 2.8.2)
+    nokogiri (1.13.10)
+      mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     racc (1.8.1)
     scrub_rb (1.0.1)
