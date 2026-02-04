@@ -8,7 +8,11 @@ if [[ $# -eq 0 ]] ; then
 fi
 
 SOURCE=$1
-DESTINATION=$2
+if [ $# -ge 2 ]; then
+    DESTINATION=$2
+else
+    DESTINATION=$1
+fi
 CONVERTER='./marc2xml.pl'
 
 if [[ ! -d $SOURCE ]]; then
