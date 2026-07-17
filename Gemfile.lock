@@ -9,6 +9,7 @@ GEM
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     racc (1.8.1)
+    rexml (3.4.4)
     scrub_rb (1.0.1)
     unf (0.1.4)
       unf_ext
@@ -20,6 +21,7 @@ PLATFORMS
 DEPENDENCIES
   marc
   nokogiri
+  rexml
 
 BUNDLED WITH
    2.4.22
